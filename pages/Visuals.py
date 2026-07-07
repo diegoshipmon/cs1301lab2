@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.express as px
+
 st.set_page_config(
     page_title="Visualize Data",
     page_icon="🔍",
@@ -14,12 +16,12 @@ st.header("Charts from Current Data in CSV")
 data = pd.read_csv("data.csv")
 data = data.drop(columns=["Unnamed: 0"], errors="ignore")
 
-st.write("Bar graph showing CSR strategy distribution.")
+st.write("Pie chart showing CSR strategy distribution.")
 csr_summary = data.groupby("CSR strategy")["Abundance"].sum().reset_index()
 
-st.bar_chart(csr_summary, x="CSR strategy", y="Abundance", color = "CSR strategy")
+fig = px.pie(csr_summary, values="Abundance", names="CSR strategy", title="Distribution of abundance by CSR strategy")
 
-
+st.plotly_chart(fig)
 st.write("Explore the relationship between family and abundance within one of Grimes' ecological strategies")
 
 if "csr_choice" not in st.session_state:
@@ -39,8 +41,9 @@ filtered_data = data
 filtered_data = filtered_data[filtered_data["CSR strategy"] == st.session_state.csr_choice]
 filtered_data = filtered_data[filtered_data["Abundance"] >= st.session_state.minimum_abundance]
 
-st.bar_chart(filtered_data, x="Common Name", y="Abundance")
+fig = px.scatter(filtered_data, x="Abundance", y="Common Name", size = "Abundance", title=f"Species abundance within {st.session_state.csr_choice} strategy")
 
+st.plotly_chart(fig)
 st.write("Explore diversity metrics within your site!")
 if "metric" not in st.session_state:
     st.session_state.metric = "Shannon Index"
