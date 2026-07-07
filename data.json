@@ -1,0 +1,152 @@
+{
+  "Tree-of-heaven": {
+    "scientific_name": "Ailanthus altissima",
+    "family": "Simaroubaceae",
+    "CSR_strategy": "C"
+  },
+  "River birch": {
+    "scientific_name": "Betula nigra",
+    "family": "Betulaceae",
+    "CSR_strategy": "S"
+  },
+  "Pecan": {
+    "scientific_name": "Carya illinoinensis",
+    "family": "Juglandaceae",
+    "CSR_strategy": "S"
+  },
+  "Eastern redbud": {
+    "scientific_name": "Cercis canadensis",
+    "family": "Fabaceae",
+    "CSR_strategy": "C"
+  },
+  "Blue mistflower": {
+    "scientific_name": "Conoclinium coelestinum",
+    "family": "Asteraceae",
+    "CSR_strategy": "R"
+  },
+  "Flowering dogwood": {
+    "scientific_name": "Cornus florida",
+    "family": "Cornaceae",
+    "CSR_strategy": "S"
+  },
+  "Deertongue grass": {
+    "scientific_name": "Dichanthelium clandestinum",
+    "family": "Poaceae",
+    "CSR_strategy": "R"
+  },
+  "Annual fleabane": {
+    "scientific_name": "Erigeron annuus",
+    "family": "Asteraceae",
+    "CSR_strategy": "R"
+  },
+  "Wild geranium": {
+    "scientific_name": "Geranium maculatum",
+    "family": "Geraniaceae",
+    "CSR_strategy": "C"
+  },
+  "Wild hydrangea": {
+    "scientific_name": "Hydrangea arborescens",
+    "family": "Hydrangeaceae",
+    "CSR_strategy": "S"
+  },
+  "Winterberry holly": {
+    "scientific_name": "Ilex verticillata",
+    "family": "Aquifoliaceae",
+    "CSR_strategy": "S"
+  },
+  "Spicebush": {
+    "scientific_name": "Lindera benzoin",
+    "family": "Lauraceae",
+    "CSR_strategy": "S"
+  },
+  "Tulip tree": {
+    "scientific_name": "Liriodendron tulipifera",
+    "family": "Magnoliaceae",
+    "CSR_strategy": "C"
+  },
+  "Sweetbay magnolia": {
+    "scientific_name": "Magnolia virginiana",
+    "family": "Magnoliaceae",
+    "CSR_strategy": "R"
+  },
+  "Wax myrtle": {
+    "scientific_name": "Morella cerifera",
+    "family": "Myricaceae",
+    "CSR_strategy": "S"
+  },
+  "Switchgrass": {
+    "scientific_name": "Panicum virgatum",
+    "family": "Poaceae",
+    "CSR_strategy": "C"
+  },
+  "Virginia creeper": {
+    "scientific_name": "Parthenocissus quinquefolia",
+    "family": "Vitaceae",
+    "CSR_strategy": "C"
+  },
+  "Garden phlox": {
+    "scientific_name": "Phlox paniculata",
+    "family": "Polemoniaceae",
+    "CSR_strategy": "C"
+  },
+  "Virginia pine": {
+    "scientific_name": "Pinus virginiana",
+    "family": "Pinaceae",
+    "CSR_strategy": "S"
+  },
+  "Plantain": {
+    "scientific_name": "Plantago spp.",
+    "family": "Plantaginaceae",
+    "CSR_strategy": "R"
+  },
+  "American sycamore": {
+    "scientific_name": "Platanus occidentalis",
+    "family": "Platanaceae",
+    "CSR_strategy": "C"
+  },
+  "Christmas fern": {
+    "scientific_name": "Polystichum acrostichoides",
+    "family": "Dryopteridaceae",
+    "CSR_strategy": "S"
+  },
+  "Pickerelweed": {
+    "scientific_name": "Pontederia cordata",
+    "family": "Pontederiaceae",
+    "CSR_strategy": "S"
+  },
+  "Black cherry": {
+    "scientific_name": "Prunus serotina",
+    "family": "Rosaceae",
+    "CSR_strategy": "C"
+  },
+  "White oak": {
+    "scientific_name": "Quercus alba",
+    "family": "Fagaceae",
+    "CSR_strategy": "S"
+  },
+  "Cutleaf coneflower": {
+    "scientific_name": "Rudbeckia laciniata",
+    "family": "Asteraceae",
+    "CSR_strategy": "C"
+  },
+  "Tall goldenrod": {
+    "scientific_name": "Solidago altissima",
+    "family": "Asteraceae",
+    "CSR_strategy": "C"
+  },
+  "Indiangrass": {
+    "scientific_name": "Sorghastrum nutans",
+    "family": "Poaceae",
+    "CSR_strategy": "S"
+  },
+  "Common dandelion": {
+    "scientific_name": "Taraxacum officinale",
+    "family": "Asteraceae",
+    "CSR_strategy": "R"
+  },
+  "American elm": {
+    "scientific_name": "Ulmus americana",
+    "family": "Ulmaceae",
+    "CSR_strategy": "C"
+  }
+}
